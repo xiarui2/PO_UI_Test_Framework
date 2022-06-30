@@ -29,7 +29,7 @@ class LogUtils:
 
 logger = LogUtils().get_logger()
 
-
+#1
 if __name__=="__main__":
     #LogUtils()
     logger.info("封装好的日志 i")
