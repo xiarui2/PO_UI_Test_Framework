@@ -2,7 +2,7 @@ from selenium import webdriver
 from element_infos.login_page import LoginPage
 from selenium.webdriver.common.by import By
 import time,os
-from common.log_uitls import logger
+from common.log_utils import logger
 current_path = os.path.dirname(__file__)
 driver_path = os.path.join(current_path,'../webdriver/chromedriver.exe')
 
@@ -27,7 +27,7 @@ class MainPage():  #类名————》页面
         self.product_menu.click()
     def get_username(self):
         value = self.username_showspan.text
-        logger.info('获取用户名成功 用户名是：'+str(value))
+        logger.info('获取用户名成功，用户名是：'+str(value))
         return value
 
 

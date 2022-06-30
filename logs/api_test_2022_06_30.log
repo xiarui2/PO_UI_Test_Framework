@@ -1,0 +1,13 @@
+2022-06-30 16:32:05,533 ApiTestLog WARNING 封装好的日志 w
+2022-06-30 16:32:05,533 ApiTestLog ERROR 封装好的日志 e
+2022-06-30 16:53:00,846 ApiTestLog INFO 封装好的日志 i
+2022-06-30 16:53:00,846 ApiTestLog WARNING 封装好的日志 w
+2022-06-30 16:53:00,846 ApiTestLog ERROR 封装好的日志 e
+2022-06-30 16:53:14,730 ApiTestLog INFO 用户名输入框输入：
+2022-06-30 16:53:14,761 ApiTestLog INFO 密码输入框输入：
+2022-06-30 16:53:14,801 ApiTestLog INFO 点击登录按钮
+2022-06-30 16:53:17,019 ApiTestLog INFO 获取用户名成功，用户名是：test01
+2022-06-30 17:14:24,038 ApiTestLog INFO 用户名输入框输入：
+2022-06-30 17:14:24,078 ApiTestLog INFO 密码输入框输入：
+2022-06-30 17:14:24,110 ApiTestLog INFO 点击登录按钮
+2022-06-30 17:14:26,707 ApiTestLog INFO 获取用户名成功，用户名是：test01

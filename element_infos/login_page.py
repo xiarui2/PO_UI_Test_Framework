@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from common.log_uitls import logger
+from common.log_utils import logger
 import time,os
 current_path = os.path.dirname(__file__)
 driver_path = os.path.join(current_path,'../webdriver/chromedriver.exe')
@@ -18,11 +18,11 @@ class LoginPage():  #类名————》页面
 
     def input_username(self,username):  #方法——》控件的操作
         self.username_inputbox.send_keys(username)
-        logger.info('用户名输入框输入：'+str(username))
+        logger.info('用户名输入框输入：')
 
     def input_password(self,password):
         self.password_inputbox.send_keys(password)
-        logger.info('密码输入框输入：' + str(password))
+        logger.info('密码输入框输入：')
 
     def click_login(self):
         self.login_button.click()
